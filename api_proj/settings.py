@@ -26,7 +26,7 @@ SECRET_KEY = '*-wl_*^3xur@2dklm8b4wsq^ht8_5@+1-f6&7^b#v=d5tk+hpp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['murmuring-crag-04550.herokuapp.com/']
 
 
 # Application definition
