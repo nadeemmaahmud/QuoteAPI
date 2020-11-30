@@ -26,7 +26,7 @@ SECRET_KEY = '*-wl_*^3xur@2dklm8b4wsq^ht8_5@+1-f6&7^b#v=d5tk+hpp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['frozen-cove-86307.herokuapp.com/']
 
 
 # Application definition
@@ -83,8 +83,12 @@ WSGI_APPLICATION = 'api_proj.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd2l1dvc1bs3qfs',
+        'USER': 'vfxhqpihotzsfc',
+        'PASSWORD': '839923250ac95b880bdd52524ca7192585e874f77fbeb7f383769e706bfc599e',
+        'HOST': 'ec2-54-205-248-255.compute-1.amazonaws.com',
+        'PORT': 5432,
     }
 }
 
